@@ -5,4 +5,5 @@ require 'rspec'
 
 World PageObject::PageFactory
 
+CURRENT_ENV = :st
 BASE_URL = {:st => 'http://www.amazon.com'}

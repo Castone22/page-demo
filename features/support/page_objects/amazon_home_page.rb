@@ -1,7 +1,7 @@
 class AmazonHomePage
   include PageObject
 
-  page_url 'https://www.amazon.com'
+  page_url BASE_URL[CURRENT_ENV]
 
   div :search_section, :class => 'nav-search-submit nav-sprite'
   div :results, :id => 'atfResults'
